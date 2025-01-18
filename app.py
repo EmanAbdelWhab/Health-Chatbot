@@ -3,7 +3,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Load API Key securely
-API_KEY = "AIzaSyCnHshDBzJUkWR_t5vdxm6A2AiJQks5RT4"
+API_KEY = 'your_api_key_here'
 if not API_KEY:
     raise ValueError("API key not found. Please set the 'GEMINI_API_KEY' environment variable.")
 
